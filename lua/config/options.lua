@@ -2,9 +2,6 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
--- don't auto format
-vim.g.autoformat = false
-
 local tabs = 4
 
 -- tabs indents
@@ -30,7 +27,7 @@ vim.o.mouse = "a"
 vim.o.guicursor = ""
 vim.o.cursorline = true
 
--- -- buffers files windows splits
+-- buffers files windows splits
 vim.o.swapfile = false
 vim.o.backup = false
 vim.o.hidden = true
@@ -52,3 +49,5 @@ vim.o.updatetime = 50
 vim.o.conceallevel = 0 -- don't hide my json strings
 
 vim.g.mapleader = " "
+
+vim.g.autoformat = false -- don't auto format
