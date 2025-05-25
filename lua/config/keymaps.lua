@@ -1,7 +1,5 @@
 local map = vim.keymap.set
 
-local opts = { noremap = true, silent = true }
-
 -- open netrw
 map("n", "<leader>e", "<cmd>Oil<cr>", { desc = "oil" })
 
@@ -35,3 +33,6 @@ map("n", "<leader>cr", vim.lsp.buf.rename, { desc = "Rename" })
 map("n", "K", function()
   vim.lsp.buf.hover({ border = "rounded" })
 end, { desc = "Hover" })
+
+-- wtf is <C-\><C-n>
+map("t", "<esc><esc>", "<C-\\><C-n>")

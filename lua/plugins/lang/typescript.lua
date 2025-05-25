@@ -3,7 +3,7 @@ vim.lsp.config("vtsls", {})
 return {
   {
     "nvim-treesitter/nvim-treesitter",
-    opts = { ensure_installed = {"javascript", "typescript", "tsx"} },
+    opts = { ensure_installed = { "javascript", "typescript", "tsx" } },
   },
   {
     "mason-org/mason.nvim",
