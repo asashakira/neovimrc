@@ -36,3 +36,6 @@ end, { desc = "Hover" })
 
 -- wtf is <C-\><C-n>
 map("t", "<esc><esc>", "<C-\\><C-n>")
+
+map('n', '<F1>', '<nop>', { noremap = true, silent = true })
+map('i', '<F1>', '<nop>', { noremap = true, silent = true })

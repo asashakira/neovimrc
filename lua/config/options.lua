@@ -22,8 +22,8 @@ set.autowrite = true
 
 -- tabs
 set.expandtab = true
-set.shiftwidth = 4
-set.tabstop = 4
+set.shiftwidth = 2
+set.tabstop = 2
 
 -- Enable break indent
 set.breakindent = true
@@ -72,3 +72,5 @@ set.timeoutlen = 300
 -- instead raise a dialog asking if you wish to save the current file(s)
 -- See `:help 'confirm'`
 set.confirm = true
+
+set.fileformats = { "unix", "dos" }
