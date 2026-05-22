@@ -2,10 +2,6 @@ vim.lsp.enable("ruff")
 vim.lsp.enable("pyright")
 return {
   {
-    "mason-org/mason.nvim",
-    opts = { ensure_installed = { "pyright", "ruff" } },
-  },
-  {
     "stevearc/conform.nvim",
     optional = true,
     opts = {

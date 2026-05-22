@@ -5,10 +5,6 @@ return {
     opts = { ensure_installed = { "go", "gomod", "gowork", "gosum" } },
   },
   {
-    "mason-org/mason.nvim",
-    opts = { ensure_installed = { "goimports", "gofumpt" } },
-  },
-  {
     "stevearc/conform.nvim",
     optional = true,
     opts = {

@@ -4,10 +4,6 @@ return {
     opts = { ensure_installed = { "markdown" } },
   },
   {
-    "mason-org/mason.nvim",
-    opts = { ensure_installed = { "prettierd" } },
-  },
-  {
     "stevearc/conform.nvim",
     optional = true,
     opts = {

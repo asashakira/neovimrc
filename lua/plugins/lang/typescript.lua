@@ -39,17 +39,6 @@ return {
     opts = { ensure_installed = { "javascript", "typescript", "tsx" } },
   },
   {
-    "mason-org/mason.nvim",
-    opts = {
-      ensure_installed = {
-        "vtsls",
-        "prettierd",
-        "eslint_d",
-        "eslint-lsp",
-      },
-    },
-  },
-  {
     "stevearc/conform.nvim",
     optional = true,
     opts = {
