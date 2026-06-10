@@ -27,7 +27,7 @@ return {
     optional = true,
     opts = {
       formatters_by_ft = {
-        sql = { "sqlfmt" },
+        sql = { "pg_format" },
       }
     }
   },
