@@ -70,6 +70,11 @@ return {
     end, { desc = "[/] Fuzzily search in current buffer" })
 
     return {
+      defaults = {
+        -- Lua patterns matched against paths relative to cwd. Hides committed
+        -- Go vendor dirs (e.g. src/vendor/) from every picker, including grep.
+        file_ignore_patterns = { "^vendor/", "/vendor/" },
+      },
       pickers = {
         find_files = {
           theme = "ivy",
